@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #163840, #2B6D7D);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p { /*significa que o div tem um filho que é um paragrafo*/
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: black;
+            background-color: yellow;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        h1 {
+            border-style: groove;
+            border-color: aqua;
+            padding: 20px;
+            text-align: center;
+            border: 0; 
+        }
+
+        h1:hover {
+            
+            display: block;
+            background-color: #2B6D7D;
+            text-align: center;
+            padding: 10;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do exemplo</p>
+    <div>
+        Hover com menu
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+background-image: linear-gradient(to right, #163840, #2B6D7D);
+----- faz com o que o fundo fique em gradiente, para a direita.
+
+border-style - dotted, pontilhadinho. solid - linha fixa.
+border-width - 
+
+padding normalmente é dividido em 4 partes, todos os lados.
+é bom configurar ele por completo quando for criar um site.
+
+Margin auto faz com que o conteudo fique sempre no meio.
+caso seja texto, so colocar o text align center.
+
+display inline faz o conteudo ficar em linha. atraves da css da pra criar menus.
