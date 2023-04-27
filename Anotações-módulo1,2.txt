@@ -501,3 +501,17 @@ repositorio remoto é onde voce guar online
 
 o git é um programa que serve para salvar versões mais antigas do seu projeto.
 
+
+-------------CAPITULO 19 - AULA 01 -----------------
+Imagens de fundo
+para a colocação de imagens, foram criadas tres divs, cada uma com um padrao diferente.
+
+background-image: url(Imagens/wallpaper002.jpg);
+
+esse é o comando para a colocação de uma imagem como backgroud. 
+
+background-image: linear-gradient(to left, gray, yellow); 
+
+aqui cria um padrão linear ja conhecido, mas vale a pena colocar novamente.
+
+
