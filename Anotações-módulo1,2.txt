@@ -526,6 +526,19 @@ Configurando a posição da imagem no fundo do site.
 
 background-position: em linha e coluna. left, bottom, top, right
 
+uma dica interessante é colocar uma background color para que quando o site esteja carregando ela apareça e nao fique o site branco.
+
+background-repeat:
+repeat-y: repete apenas no eixo y, assim como o x no x
+repeat: repete normalmente
+no-repeat: nao repete a imagem e fica o fundo na cor escolhida.
+
+background-size: ->> 
+contain: faz com que a imagem seja sempre exibida. o fundo vai aparecendo igual reprodutor de video.
+cover ->> ele vai cobrir a tela inteira com a imagem, mesmo que ele tenha que cortar  uma parte da imagem. para que a imagem apareça ele tem que chegar ao tamanho normal da vh - viewport
+auto ->> deixa o pc se virar
+pixels --> define o tamanho certo
+
 
 
 
