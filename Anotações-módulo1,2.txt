@@ -1,3 +1,6 @@
+So testando edição na primeira linha para ver se vai ser atualizado.
+
+
 * - dns é praticamente uma lista telefonica, onde os sites ficam guardados e ligam ao ip de determinada marca. como por exemplo o dominio é instagram.com e graças a ele o dns consegue encontrar o servidor, e acessar os dados lá guardados.
 
 * - o seu html e css só serão acessados se estiverem dentro do servidor. mesmo que você ja tenha criado tudo. 
