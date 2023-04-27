@@ -1,4 +1,5 @@
 So testando edição na primeira linha para ver se vai ser atualizado.
+agora testando no site
 
 
 * - dns é praticamente uma lista telefonica, onde os sites ficam guardados e ligam ao ip de determinada marca. como por exemplo o dominio é instagram.com e graças a ele o dns consegue encontrar o servidor, e acessar os dados lá guardados.
