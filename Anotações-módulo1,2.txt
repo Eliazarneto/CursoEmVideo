@@ -502,8 +502,11 @@ repositorio remoto é onde voce guar online
 o git é um programa que serve para salvar versões mais antigas do seu projeto.
 
 
--------------CAPITULO 19 - AULA 01 -----------------
-Imagens de fundo
+-------------CAPITULO 19 - AULA 02 -----------------
+Imagens de Fundo
+
+AQUI SERÁ UTILIZADO O EXERCICIO 022
+
 para a colocação de imagens, foram criadas tres divs, cada uma com um padrao diferente.
 
 background-image: url(Imagens/wallpaper002.jpg);
@@ -513,5 +516,17 @@ esse é o comando para a colocação de uma imagem como backgroud.
 background-image: linear-gradient(to left, gray, yellow); 
 
 aqui cria um padrão linear ja conhecido, mas vale a pena colocar novamente.
+
+----------------CAPITULO 19 - AULA 03 ----------------
+EX022 : Quando voce usa um background image, sempre existe a possibildiade. mas pode ser mudada atraves do comando: background-repeat: no-repeat; repeat, reapeat-y e repeat-x
+
+
+------------CAPITULO 19 - AULA 04 --------------------
+Configurando a posição da imagem no fundo do site.
+
+background-position: em linha e coluna. left, bottom, top, right
+
+
+
 
 
