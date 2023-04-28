@@ -540,6 +540,26 @@ auto ->> deixa o pc se virar
 pixels --> define o tamanho certo
 
 
+---------------Capítulo 19 Aula 06----------------
+----------background-attachment e shorthand---------------
+isso quer dizre se ele vai ficar vinculado ao seu conteudo ou se irá ficar apenas travado na tela
+
+ao rolar a tela e o fundo ficar travado, voce irá ter um attachment, entao, precisa criar a tag dentro do style.
+background-attachment: 
+roll, quer dizer que o fundo irá rodar junto com o conteúdo.
+fixed: quer dizer que o fundo fica fixo
+isso, combinado com um background-size: cover tem um efeito bem lega.
+
+
+da pra utilizar toda a linha de background com uma shorthand.
+seguindo essa sequencia
+shorthand - background
+color > image> position> repeat  >attachment
+o size não se encaixa nessa shorthand. segue exemplo:
+
+background: black url('Imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
 
 
 
