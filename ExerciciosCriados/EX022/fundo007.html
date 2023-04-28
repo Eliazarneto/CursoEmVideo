@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        .container {
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 91vh;
+            background-color: blue;
+            padding: 10px;
+        }
+
+        .conteudo {
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+            
+        }
+
+        .container h1 {
+            text-align: center;
+            background-color: black;
+            color: white;
+            letter-spacing: 4px;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 20px;
+        
+        }
+
+        .conteudo p {
+            background-color: black;
+            color: white;
+            width: 200px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <h1>testando esse container</h1>
+        <article class="conteudo">
+            <p>testando o conteudo</p>
+
+        </article>
+    </section>
+</body>
+</html>

@@ -562,4 +562,21 @@ background: black url('Imagens/wallpaper002.jpg') center center no-repeat fixed;
 
 
 
+---------CAPITULO 19 AULA 08 ----------------
+EX22 FUNDO 007
+Centralização vertical de caixas
+
+para a fazer a centalização, é necessário que haja uma tag de container e uma de conteudo
+o container precisa ter um position relative. e o conteudo absolute. 
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+essa é a config dentro de style para que a box de conteudo esteja dentro da cointainer que está com posicionamento relativo
+
+
+------------------CAPITULO 20 AULA  1------------
+UM PROJETO COMPLETO USANDO HTML E CSS
 
