@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça a sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugiat quam temporibus odio accusantium deserunt, quis sed provident corporis ratione. Et voluptate accusamus eligendi totam nisi ex hic error quisquam!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/page002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sed nihil odit ipsum, recusandae cumque eos minima unde, possimus delectus, modi veritatis voluptates laborum laudantium quasi ab libero rem totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eos eum saepe ex aliquid doloremque non, quam dignissimos aperiam natus illo esse temporibus? Rerum veniam, molestiae beatae tempora voluptas minus?</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Esse iframe é uma forma de mostrar como funciona tudo por aqui.</p><p>e por fim, irei adicionar uma pequena logo no fundo</p>" frameborder="1" name="frame" id="tela">
+        <p>infelizmente seu navegador não é compatível com iframe</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia eius modi cumque dolore voluptatum eligendi rerum odit, sequi autem voluptates explicabo quidem optio numquam, cum temporibus aperiam labore eveniet necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci necessitatibus temporibus eius doloremque eos laboriosam iusto numquam laudantium est. Voluptatibus, repudiandae eius. Commodi vel neque et velit beatae quos enim?</p>
+</body>
+</html>
