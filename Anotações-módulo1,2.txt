@@ -580,5 +580,12 @@ essa é a config dentro de style para que a box de conteudo esteja dentro da coi
 ------------------CAPITULO 21 AULA  2------------
 Tabelas
 
+para fazer o alinhamento das células, voce pode ir na td, e executar o text-align que faz o alinhameto horizonta,
+e poode usar o vertical-align 
+
+da pra criar uma class, e alinhar so aquela class.
+
+
+
 
 

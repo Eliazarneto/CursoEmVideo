@@ -12,6 +12,7 @@
 
         table {
             border: 1px solid black;
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
         }
@@ -23,15 +24,14 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: top;
         }
 
-        .linha {
-            background-color: yellow;
+        .numero {
+            text-align: right;
         }
 
-        .dado {
-            background-color: blue;
-        }
     </style>
 </head>
 <body>
@@ -44,14 +44,14 @@
                 table data - dados de tabela
     -->
     <table>
-        <tr class="linha">
+        <tr>
             <td>a1</td>
             <td>b1</td>
             <td>c1</td>
         </tr> <!-- primeira linha -->
         <tr>
             <td>a2</td>
-            <td class="dado">b2</td>
+            <td class="numero">b2</td>
             <td>c2</td>
         </tr>
         <tr>
