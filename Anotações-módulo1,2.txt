@@ -577,6 +577,8 @@ o container precisa ter um position relative. e o conteudo absolute.
 essa é a config dentro de style para que a box de conteudo esteja dentro da cointainer que está com posicionamento relativo
 
 
-------------------CAPITULO 20 AULA  1------------
-UM PROJETO COMPLETO USANDO HTML E CSS
+------------------CAPITULO 21 AULA  2------------
+Tabelas
+
+
 
