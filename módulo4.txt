@@ -31,3 +31,11 @@ voce precisa criar um link, e adicionar um target que vai apontar para o iframe.
 
 ao colocar um iframe, sem src, ele vai abrir transparente, sem exibir conteudo. 
 porém, voce pode apagar o src e colocar srcdoc e dentro dele escrever o código do que voce quer que apareça
+
+****cap 22 aula 05 ***
+nunca montar um site com muito iframe, ou conteudo muito importante, pois o google bot pode não entrar dentro do iframe e não faça a identificação do conteúdo.
+
+
+****cap 23 aula 01 ****
+Criando um projeto do zero
+
