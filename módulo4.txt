@@ -16,4 +16,9 @@ o frameborder so aceita 0 e 1. com ou sem borda, e dentro de style voce pode cri
 ****cap 22 aula 3 ***
 
 Colocar iframe com conteúdo local
+para colocar o iframe voce so precisar adicionar a página normalmente, e colocar dentro do src.
+
+dentro do style voce pode centralizar a tabela, normalmente, colocando display block.
+
+é bom sempre adicionar uma mensagem de erro para o iframe 
 
