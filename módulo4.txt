@@ -1,0 +1,19 @@
+Resumo do modulo 4
+
+iframe é um frame in line
+
+iframe cria uma janela, que mostra o conteúdo do site, dentro da linha a qual o texto está.
+
+Voce pode adicionar um link, entre um iframe e outro, caso o navegador nao suporte, ele vai direcionar você para o site. assim como pode escrever um texto explicando que o navegador não suporta.
+
+da pra mudar o tamanho tbm, com o height e width, usando css ou fazendo a mudança após o frameborder.
+
+scolling cria a possibilidade de deixar o iframe rolar, ou não,
+os parametros são, auto, yes ou no.
+
+o frameborder so aceita 0 e 1. com ou sem borda, e dentro de style voce pode criar a border e personalizar como quiser.
+
+****cap 22 aula 3 ***
+
+Colocar iframe com conteúdo local
+
